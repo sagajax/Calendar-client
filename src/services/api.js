@@ -11,6 +11,7 @@ api.interceptors.request.use((config) => {
     config.headers.Authorization = `Bearer ${token}`;
   }
   return config;
-});
+}); 
+let a = 10;
 
 export default api; 
